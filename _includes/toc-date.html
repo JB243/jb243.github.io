@@ -1,0 +1,100 @@
+<div class="book-summary">
+    <nav role="navigation">
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
+        <div id="book-search-input-link" role="search">
+            <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
+        </div>
+        <ul class="summary">
+            {% if page.url == "/index.html" or page.url == "/" %}
+            <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
+            {% else %}
+            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
+            {% endif %}
+                <a href="{{site.baseurl}}/">
+                    {{ site.title | escape }}
+                </a>
+            </li>
+
+            
+            <!-- I added the below -->
+            <li class="divider"></li>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://www.linkedin.com/in/jeong-bin-park-04aa66246/" rel="noopener">Who am I?</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://nate9389.tistory.com/" rel="noopener">Originally, I wrote them in Korean!</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="mailto:nate9389@gmail.coml" rel="noopener">nate9389@gmail.com</a></p>
+            
+            <!-- I added the below -->
+
+            <li class="divider"></li>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><b>Ⅰ. Nature Science</b></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/482" rel="noopener">Philosophy</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/1641" rel="noopener">Statistics</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/852" rel="noopener">Circuit Theory</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/788" rel="noopener">Programming</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/786" rel="noopener">Python</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/1362" rel="noopener">Chemistry</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/1483" rel="noopener">Organic Chemistry</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/1457" rel="noopener">Biology</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/836" rel="noopener">Bioinformatics</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/1566" rel="noopener">Earth Science</a></p>
+
+            <li class="divider"></li>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><b>Ⅱ. Human Science</b></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/2175" rel="noopener">English</a></p>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><a href="https://jb243.github.io/pages/2194" rel="noopener">Studying Abroad</a></p>
+
+            <li class="divider"></li>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><b>Ⅲ. Social Science</b></p>
+
+            <li class="divider"></li>
+            <p style="margin-left: 1em; line-height: 2;" data-ke-size="size16"><b>Ⅳ. History Science</b></p>
+            
+            {% for collection in site.collections %}
+                <!-- <p>{{ collection.label }}</p> -->
+            
+                {% if collection.output %}
+                    <!-- 아래가 _posts 폴더를 인식하는 핵심 코드 -->
+                    {% if collection.label == "posts" %}  
+                        {% assign reversed_posts = site[collection.label] | reverse %}
+                    {% else %}
+                         {% assign reversed_posts = site[collection.label] %} 
+                    {% endif %}
+            
+                    <!--
+                    {% for post in reversed_posts %}
+                        {% if page.url == post.url %}
+                        <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
+                        {% else %}
+                        <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
+                        {% endif %}
+                            <a href="{{site.baseurl}}{{post.url}}">
+                                {{ post.title | escape }}
+                            </a>
+                            {% if site.toc.enabled %}
+                                {% if page.url == post.url %}
+                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
+                                {% endif %}
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                    -->
+            
+                        
+                    {% if reversed_posts.size > 0 %}
+                        <li class="divider"></li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            
+            <!--            
+            <li>
+                <a href="https://nate9389.tistory.com/" target="blank" class="gitbook-link">
+                    Originally, I wrote them in Korean!
+                </a>
+            </li>
+            -->
+        </ul>
+    </nav>
+</div>

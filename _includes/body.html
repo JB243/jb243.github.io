@@ -1,0 +1,111 @@
+<div class="page-wrapper" tabindex="-1" role="main">
+    {% if page.cover %}
+        <img src="{{ page.cover }}"
+             width="100%"
+             height="{{ page.cover_height | default: '100%' }}"
+             alt="{{ page.title | escape }}"
+             style="object-fit: cover;"
+        />
+    {% endif %}
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    {% if page.title %}
+<!--
+                        <script>
+                            function formatMarkdownFileAddress(pageTitle) {
+                              let yearPart = (pageTitle >= 1 && pageTitle <= 9) ? '000' + pageTitle : pageTitle;
+                              return `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${yearPart}-01-01-${pageTitle}.md`;
+                            }
+                        </script>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                let pageTitle = "{{ page.title }}"; // This now dynamically reflects the page's title
+                                let editLink = document.getElementById('editLink');
+                                if(editLink) {
+                                    function formatMarkdownFileAddress(pageTitle) {
+                                        let yearPart = (pageTitle >= 1 && pageTitle <= 9) ? '000' + pageTitle : pageTitle;
+                                        return `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${yearPart}-01-01-${pageTitle}.md`;
+                                    }
+                                    editLink.href = formatMarkdownFileAddress(pageTitle);
+                                }
+                            });
+                        </script>
+                    
+                        <p style="line-height: 2; font-size: 9pt; text-align: right;"><a href="https://nate9389.tistory.com/{{ page.title }}" target="_blank" rel="noopener"><span style="color: #666666;">Korean</span></a>, 
+                            <a id="editLink" target="_blank" rel="noopener"><span style="color: #666666;">Edit</span></a>
+                        </p>
+                        <br>
+-->
+                        <!-- <h1 id="{{ page.id }}">{{ page.title | escape }}</h1> -->
+
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                let pageTitle = "{{ page.title }}"; // Reflects the page's title dynamically
+                        
+                                // Initialize variables for the dynamic links
+                                let englishHref, japaneseHref, koreanHref, editHref;
+                                
+                                // Determine the correct href values based on the pageTitle
+                                if (parseInt(pageTitle) < 5000) {
+                                    japaneseHref = `https://jb243.github.io/pages/${5000 + parseInt(pageTitle)}`;
+                                    koreanHref = `https://nate9389.tistory.com/${pageTitle}`;
+                                    editHref = `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;
+                                } else {
+                                    englishHref = `https://jb243.github.io/pages/${parseInt(pageTitle) - 5000}`;
+                                    koreanHref = `https://nate9389.tistory.com/${parseInt(pageTitle) - 5000}`;
+                                    editHref = `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;;
+                                }
+                        
+                                // Update the Korean link
+                                let koreanLink = document.getElementById('koreanLink');
+                                koreanLink.href = koreanHref;
+                                koreanLink.style.color = "#666666"; // Change link color
+                        
+                                // Dynamically create and insert the English or Japanese link if applicable
+                                if (englishHref || japaneseHref) {
+                                    let newLink = document.createElement('a');
+                                    newLink.href = englishHref || japaneseHref;
+                                    newLink.textContent = englishHref ? "English" : "Japanese";
+                                    newLink.target = "_blank";
+                                    newLink.rel = "noopener";
+                                    newLink.style.color = "#666666"; // Change link color
+                        
+                                    // Insert the new link after the Korean link
+                                    let commaText = document.createTextNode(", ");
+                                    let parentParagraph = koreanLink.parentNode;
+                                    parentParagraph.insertBefore(commaText, koreanLink.nextSibling);
+                                    parentParagraph.insertBefore(newLink, commaText.nextSibling);
+                                }
+                        
+                                // Update the Edit link
+                                let editLink = document.getElementById('editLink');
+                                editLink.href = editHref;
+                                editLink.style.color = "#666666"; // Change link color
+                            });
+                        </script>
+                        <p style="line-height: 2; font-size: 9pt; text-align: right;">
+                            <a id="koreanLink" target="_blank" rel="noopener" style="color: #666666;">Korean</a>,
+                            <!-- English/Japanese link will be dynamically inserted here -->
+                            <a id="editLink" target="_blank" rel="noopener" style="color: #666666;">Edit</a>
+                        </p>
+                    
+                    {% else %}
+                        <p style="line-height: 2; font-size: 9pt; text-align: right;"><a href="https://nate9389.tistory.com/notice/1758" target="_blank" rel="noopener"><span style="color: #666666;">Korean</span></a>, 
+                            <a href="https://github.com/JB243/jb243.github.io/edit/master/README.md" target="_blank" rel="noopener"><span style="color: #666666;">Edit</span></a>
+                    </p>
+                        <br>
+                        <!-- <h1 id="{{ page.id }}">{{ site.title | escape }}</h1> -->
+                    {% endif %}
+                    <!-- 파일 제목에 자유도를 높이고 싶어서 위 코드를  -->
+
+                    {{ content }}
+                </section>
+            </div>
+
+            {%- include search.html -%}
+        </div>
+    </div>
+</div>

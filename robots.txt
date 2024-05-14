@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://jb243.github.io/sitemap.xml
+
+#DaumWebMasterTool:1c14afe6361220f656272f10fee7e211e3c05edb0b2f4c6f551bf8860069910e:3OBAQyXZLyDjN9cA+vkx3g==

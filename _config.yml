@@ -1,0 +1,76 @@
+# Configurations
+title:            Knowledge must be equal
+longtitle:        정빈이의 공부방 
+author:           Jeongbin Park
+email:            nate9389@gmail.com
+description: >
+  Originally written in nate9389.tistory.com
+
+version:          1.0
+gitbook_version:  3.2.3
+
+url:              'https://jb243.github.io'
+baseurl:          '/'
+rss:              RSS
+
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:        /:categories/:year-:month-:day-/:title:output_ext 
+permalink:        /pages/:title
+
+## I added (23.06.06)
+include:
+  - _pages
+
+exclude:
+  - _drafts
+
+# 아래 collections를 통해 다른 _pages 말고 다른 디렉토리도 할 수 있음
+# 일단 아래 기능은 필요 없는 거 같아서 불활성화 시킴
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+future: true
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
+  
+  
+# I added all the below
+google_analytics: G-0G7H5JFYB9

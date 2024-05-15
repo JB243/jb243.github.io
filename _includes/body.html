@@ -17,7 +17,7 @@
                         <script>
                             function formatMarkdownFileAddress(pageTitle) {
                               let yearPart = (pageTitle >= 1 && pageTitle <= 9) ? '000' + pageTitle : pageTitle;
-                              return `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${yearPart}-01-01-${pageTitle}.md`;
+                              return `https://github.com/JB243/jb243.github.io/edit/main/_posts/complete/${yearPart}-01-01-${pageTitle}.md`;
                             }
                         </script>
                         <script>
@@ -27,7 +27,7 @@
                                 if(editLink) {
                                     function formatMarkdownFileAddress(pageTitle) {
                                         let yearPart = (pageTitle >= 1 && pageTitle <= 9) ? '000' + pageTitle : pageTitle;
-                                        return `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${yearPart}-01-01-${pageTitle}.md`;
+                                        return `https://github.com/JB243/jb243.github.io/edit/main/_posts/complete/${yearPart}-01-01-${pageTitle}.md`;
                                     }
                                     editLink.href = formatMarkdownFileAddress(pageTitle);
                                 }
@@ -52,11 +52,11 @@
                                 if (parseInt(pageTitle) < 5000) {
                                     japaneseHref = `https://jb243.github.io/pages/${5000 + parseInt(pageTitle)}`;
                                     koreanHref = `https://nate9389.tistory.com/${pageTitle}`;
-                                    editHref = `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;
+                                    editHref = `https://github.com/JB243/jb243.github.io/edit/main/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;
                                 } else {
                                     englishHref = `https://jb243.github.io/pages/${parseInt(pageTitle) - 5000}`;
                                     koreanHref = `https://nate9389.tistory.com/${parseInt(pageTitle) - 5000}`;
-                                    editHref = `https://github.com/JB243/jb243.github.io/edit/master/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;;
+                                    editHref = `https://github.com/JB243/jb243.github.io/edit/main/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;;
                                 }
                         
                                 // Update the Korean link
@@ -94,7 +94,7 @@
                     
                     {% else %}
                         <p style="line-height: 2; font-size: 9pt; text-align: right;"><a href="https://nate9389.tistory.com/notice/1758" target="_blank" rel="noopener"><span style="color: #666666;">Korean</span></a>, 
-                            <a href="https://github.com/JB243/jb243.github.io/edit/master/README.md" target="_blank" rel="noopener"><span style="color: #666666;">Edit</span></a>
+                            <a href="https://github.com/JB243/jb243.github.io/edit/main/README.md" target="_blank" rel="noopener"><span style="color: #666666;">Edit</span></a>
                     </p>
                         <br>
                         <!-- <h1 id="{{ page.id }}">{{ site.title | escape }}</h1> -->

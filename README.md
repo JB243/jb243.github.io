@@ -249,7 +249,7 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 <br>
 <center>
-<img src="https://github.com/JB243/jb243.github.io/assets/55747737/abddd913-d82a-4a11-871b-bfa70f5f1801" alt="drawing" style="width:600px;"/>
+<img src="https://github.com/JB243/jb243.github.io/assets/55747737/c437e4a2-0e04-472d-b5ff-db748b9ca172" alt="drawing" style="width:600px;"/>
 </center>
 <br>
 
@@ -484,7 +484,7 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 <br>
 <center>
-<img src="https://github.com/JB243/jb243.github.io/assets/55747737/c27322fe-bd1d-48a1-b99b-f7cf822f9e47" alt="drawing" style="width:600px;"/>
+<img src="https://github.com/JB243/jb243.github.io/assets/55747737/6998f7a4-7e42-4131-b1bd-87d2c2e007f9" alt="drawing" style="width:600px;"/>
 </center>
 <br>
 
@@ -723,7 +723,7 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 <br>
 
 <center>
-<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbhAKtT%2FbtsBikWXikR%2F1HtNKdpFjPkgfc1PkKgTaK%2Fimg.png" alt = "drawing" style="width: 600px;"/ > 
+<img src="https://github.com/JB243/jb243.github.io/assets/55747737/9ffb14eb-f8b3-46a4-b664-393e972fd238" alt = "drawing" style="width: 600px;"/ > 
 </center>
 
 <br>

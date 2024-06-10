@@ -687,7 +687,7 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 <br>
 
-#### 6-8. How to present the blueprint of human knowledge in tSNE (<span style="color:red">not started</span>)
+#### 6-8. How to present the blueprint of human knowledge in tSNE (<span style="color:green">complete</span>)
 
 > ○ **Direction 1.** https://artsexperiments.withgoogle.com/tsnemap/
 
@@ -718,18 +718,18 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 <br>
 
-> ○ [Partial implementation results](https://jb243.github.io/pages/366)
+> ○ Completed Project: [Blog Post Embedding Using a Sentence Embedder](https://jb243.github.io/pages/366)
 
 <br>
 
 <center>
-<img src="https://github.com/JB243/jb243.github.io/assets/55747737/9ffb14eb-f8b3-46a4-b664-393e972fd238" alt = "drawing" style="width: 600px;"/ > 
+<img src="https://github.com/JB243/jb243.github.io/assets/55747737/9830722a-46b8-4f05-875e-3d6067580c6b" alt = "drawing" style="width: 600px;"/ > 
 </center>
 
 <br>
 
 <center>
-  <b>Figure. 14.</b> 2D visualization of posts
+  <b>Figure. 14.</b> 2D Visualization of Postings Using <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/discussions/1">all-MiniLM-L6-v2</a>
 </center>
 
 <br>

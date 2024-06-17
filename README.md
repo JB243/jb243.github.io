@@ -241,7 +241,9 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 >> ○ I think it has been already tried it on Amazon ([amazon.com](https://www.amazon.com/)).
 
->> ○ Simply speaking, we can implement a heatmap for books using their mutual citation relationships. ([ref](https://jb243.github.io/pages/366))
+>> ○ I can simply implement a heatmap for books using their mutual citation relationships. ([ref](https://jb243.github.io/pages/366))
+
+>> ○ I can create maps of books based on the LLM algorithm. ([ref](https://jb243.github.io/pages/366))
 
 > ○ **Example 4.** OCR (image to text) (<span style="color:orange">in progress</span>)
 

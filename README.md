@@ -657,9 +657,9 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 >> <span style="color:green">✓</span> [My projects related to AI](https://jb243.github.io/pages/2379)
 
->> <span style="color:red">✗</span> A program that automatically shuffles tarot cards (planned)
+>> <span style="color:green">✓</span> Various types of converters: [USD ↔︎ KRW](https://nate9389.tistory.com/2368#footnote_link_67_57), [Decimal ↔︎ Hexadecimal](https://nate9389.tistory.com/2368#footnote_link_67_60), [Time Zone Conversion](https://nate9389.tistory.com/2368#footnote_link_67_61), [Meter ↔︎ Feet](https://nate9389.tistory.com/2368#footnote_link_67_63), [Kg ↔︎ Pound](https://nate9389.tistory.com/2368#footnote_link_67_63), [Celsius ↔︎ Fahrenheit](https://nate9389.tistory.com/2368#footnote_link_67_63)
 
->> <span style="color:red">✗</span> Various types of converters (planned) **:** Won-dollar exchange rate, etc.
+>> <span style="color:red">✗</span> A program that automatically shuffles tarot cards (planned)
 
 >> <span style="color:red">✗</span> Web-based MBTI test (planned)
 
@@ -672,6 +672,8 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 >> <span style="color:red">✗</span> Plastic Surgery Simulator (planned)
 
 >> <span style="color:red">✗</span> Free Bulletin Board (planned)
+
+>> <span style="color:red">✗</span> Sudoku Puzzle Generator (Planned)
 
 <br>
 

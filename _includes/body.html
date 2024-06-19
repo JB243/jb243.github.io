@@ -46,11 +46,11 @@
                                 let pageTitle = "{{ page.title }}"; // Reflects the page's title dynamically
                         
                                 // Initialize variables for the dynamic links
-                                let englishHref, japaneseHref, koreanHref, editHref;
+                                let englishHref, spanishHref, koreanHref, editHref;
                                 
                                 // Determine the correct href values based on the pageTitle
                                 if (parseInt(pageTitle) < 5000) {
-                                    japaneseHref = `https://jb243.github.io/pages/${5000 + parseInt(pageTitle)}`;
+                                    spanishHref = `https://jb243.github.io/pages/${5000 + parseInt(pageTitle)}`;
                                     koreanHref = `https://nate9389.tistory.com/${pageTitle}`;
                                     editHref = `https://github.com/JB243/jb243.github.io/edit/main/_posts/complete/${pageTitle}-01-01-${pageTitle}.md`;
                                 } else {
@@ -64,11 +64,11 @@
                                 koreanLink.href = koreanHref;
                                 koreanLink.style.color = "#666666"; // Change link color
                         
-                                // Dynamically create and insert the English or Japanese link if applicable
-                                if (englishHref || japaneseHref) {
+                                // Dynamically create and insert the English or Spanish link if applicable
+                                if (englishHref || spanishHref) {
                                     let newLink = document.createElement('a');
-                                    newLink.href = englishHref || japaneseHref;
-                                    newLink.textContent = englishHref ? "English" : "Japanese";
+                                    newLink.href = englishHref || spanishHref;
+                                    newLink.textContent = englishHref ? "English" : "Spanish";
                                     newLink.target = "_blank";
                                     newLink.rel = "noopener";
                                     newLink.style.color = "#666666"; // Change link color
@@ -88,7 +88,7 @@
                         </script>
                         <p style="line-height: 2; font-size: 9pt; text-align: right;">
                             <a id="koreanLink" target="_blank" rel="noopener" style="color: #666666;">Korean</a>,
-                            <!-- English/Japanese link will be dynamically inserted here -->
+                            <!-- English/Spanish link will be dynamically inserted here -->
                             <a id="editLink" target="_blank" rel="noopener" style="color: #666666;">Edit</a>
                         </p>
                     

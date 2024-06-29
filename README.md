@@ -48,6 +48,8 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 >> ○ <span style="color:red">By the way,</span> will the countries' enthusiasm for education be lowered even if the final and best knowledge system for all fields is disclosed?
 
+>> ○ <span style="color:red">However,</span> the diversity of available knowledge is related to a pluralistic society, which will alleviate the high educational fervor characteristic of a monistic society.
+
 > ○ The monopoly of knowledge runs out faster than expected. The day to realize the equality of knowledge will not be that far away.
 
 > ○ The democratization of knowledge reduces <span style="color:orange"><b>social conflict</b></span>.

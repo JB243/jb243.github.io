@@ -180,11 +180,9 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 ## 2. Initiative 1. Future writing and project plan
 
-> ○ **April, 2024.** AI study, notes on legal matters
+> ○ **September 2024:** University Mathematics Competition, Organic Chemistry Problem Solving
 
-> ○ **May, 2024.** Scholarship received after university admission
-
-> ○ **June, 2024.** Graph theory, organic chemistry, generative AI
+> ○ **October 2024:** US Patent Bar Exam
 
 <br>
 <br>

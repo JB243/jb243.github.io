@@ -180,9 +180,9 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 ## 2. Initiative 1. Future writing and project plan
 
-> ○ **September 2024:** University Mathematics Competition, Organic Chemistry Problem Solving
+> ○ January 2025: University math competition, chemistry problem solving
 
-> ○ **October 2024:** US Patent Bar Exam
+> ○ February 2025: Renewal of analysis (calculus) post
 
 <br>
 <br>

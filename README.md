@@ -136,14 +136,11 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 <br>
 
-<center> <img src="https://user-images.githubusercontent.com/55747737/198065823-22e80414-2321-47e7-92c7-c6eb595c57d5.png" alt="drawing" style="width:400px;"/>
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/198065823-22e80414-2321-47e7-92c7-c6eb595c57d5.png" alt="drawing" style="width:400px;"/>
 
-<br>
+**Figure 1.** An animation of Dr. Stone Illustration 
 
-<p style="text-align: center; " data-ke-size="size16"><b>Figure. 1.</b> An animation of Dr. Stone Illustration </p>
-
-<p style="text-align: center;" data-ke-size="size16">An animation of Dr. Stone also showed me a similar idea.</p>
+An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
@@ -208,14 +205,11 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 >> ○ The law must not only have equal effects, but also equal awareness for everybody. I came up with an idea of the legal maturity of all mankind. I can secure all legal documents in my country through the National Legal Information Center, and in this way, I can secure all legal documents around the world. In addition, collecting all the citation relationship between provisions will ensure the interconnection of all legal texts, that is, the network. Then, if I run the clustering algorithm, I will have the appropriate hierarchy. This will make it easier for anyone to quickly understand legal knowledge.
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/198066094-18c02888-495d-4f46-91ff-a049b4577210.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b> Figure. 2.</b> The results of clustering that can be easily implemented in R
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/198066094-18c02888-495d-4f46-91ff-a049b4577210.png" alt="drawing" style="width:400px;"/>
+
+**Figure 2.** The results of clustering that can be easily implemented in R
+
 <br>
 
 >> ○ There are <span style="color:orange">1,580 laws</span> in South Korea (as of 2022), and there may be constitution, orders, ordinances, and rules, so thousands of posts will be created.
@@ -225,14 +219,11 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 >> ○ If [Chernoff face](https://en.wikipedia.org/wiki/Chernoff_face) is used, the recommendation of a litigation strategy for each judge could be possible.
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/225299028-400bbcb9-994f-478c-ab57-5e12ed58c93f.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b> Figure. 3.</b> Chernoff face
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/225299028-400bbcb9-994f-478c-ab57-5e12ed58c93f.png" alt="drawing" style="width:400px;"/>
+
+**Figure 3.** Chernoff face
+
 <br>
 
 > ○ **Example 3.** Book Network (<span style="color:red">not started</span>)
@@ -250,14 +241,11 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 >> ○ This can be implemented using large multi-modal modeling, such as GPT-4V.
 
 <br>
-<center>
-<img src="https://github.com/JB243/jb243.github.io/assets/55747737/c437e4a2-0e04-472d-b5ff-db748b9ca172" alt="drawing" style="width:600px;"/>
-</center>
-<br>
 
-<center>
-  <b> Figure. 4.</b> The example of GPT-4V
-</center>
+<img src="https://github.com/JB243/jb243.github.io/assets/55747737/c437e4a2-0e04-472d-b5ff-db748b9ca172" alt="drawing" style="width:600px;"/>
+
+**Figure 4.** The example of GPT-4V
+
 <br>
 
 >> ○ These make it easy to convert image data and publications into digital data.
@@ -353,14 +341,11 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 >> ○ **The scheme for the model that crawls knowledge on its own** **:** The model of self-crawling knowledge is simply a paradigm of modifying and expanding concepts by biting a tail. I think this method is similar to human cognition. In addition, the backpropagation algorithm, a key principle of deep learning algorithm, should be applied. Based on this insight, I believe that humans use deep learning not only in the sensory systems but also in the central nervous system.
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/210090722-dba0de36-a06f-4d87-a759-5b27a1e053da.png" alt="drawing" style="width:600px;"/>
-</center>
-<br>
 
-<center>
-  <b> Figure. 5.</b> The scheme for the model that crawls knowledge on its own
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/210090722-dba0de36-a06f-4d87-a759-5b27a1e053da.png" alt="drawing" style="width:600px;"/>
+
+**Figure 5.** The scheme for the model that crawls knowledge on its own
+
 <br>
 
 > ○ **Method 2.** An idea to back up postings periodically through crawling ([link](https://jb243.github.io/pages/366)) (<span style="color:green">complete</span>)
@@ -405,7 +390,7 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 ![image](https://github.com/user-attachments/assets/91b196c4-5bdf-4562-a62f-a52ab7a15921)
 
-**Figure. 6.** User behavior heatmap generated by Clarity
+**Figure 6.** User behavior heatmap generated by Clarity
 
 <br>
 
@@ -447,36 +432,23 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 > ○ Some of the images posted on this blog will be reborn as 3D images. The era has finally come when it is possible to recreate 3D images through multiple 2D images through AI algorithms.
 
 <br>
-<center>
+
 <img src="https://user-images.githubusercontent.com/55747737/198066222-badecfce-1c18-4a9f-aa79-8a332ffc56e5.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b>Figure. 7.</b> Building Rome in a day
-</center>
-<br>
+<b>Figure 7.</b> Building Rome in a day
 
 <br>
-<center>
+
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcEWxbs%2FbtslYvLeofT%2FqLHLrsiwBgh8nU0ic4tKoK%2Fimg.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b>Figure. 8.</b> NERF: Representing scenes as Neural Radiance Fields for View Synthesis
-</center>
-<br>
+<b>Figure 8.</b> NERF: Representing scenes as Neural Radiance Fields for View Synthesis
 
 <br>
-<center>
+
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkBb9F%2FbtslSmBZtpT%2FClQs3xmGq5AlnM2Sl1HBGk%2Fimg.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b>Figure. 9.</b> Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation
-</center>
+<b>Figure 9.</b> Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation
+
 <br>
 
 #### 3-2 Resolution of copyright disputes (<span style="color:green">complete</span>)
@@ -484,27 +456,21 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 > ○ In addition, the era has come when it is possible to reconstruct the existing image into the style one wants. Through this, it is expected to post a more appropriate image and resolve much of the copyright-related disputes.
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/198066307-2956c724-2229-415a-a082-ff64b6fc4906.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-<b>Figure. 10.</b> Google style transfer
-</center>
- <br>
+<img src="https://user-images.githubusercontent.com/55747737/198066307-2956c724-2229-415a-a082-ff64b6fc4906.png" alt="drawing" style="width:400px;"/>
+
+<b>Figure 10.</b> Google style transfer
+
+<br>
   
 > ○ The current generative model DALL∙E is the most successful, so I want to actively utilize it. It can even generate appropriate images that match the given posting content, so a considerable synergy with this blog is expected. However, there are still many typos found in the letters within the images, so this part seems imperfect.
 
 <br>
-<center>
-<img src="https://github.com/JB243/jb243.github.io/assets/55747737/6998f7a4-7e42-4131-b1bd-87d2c2e007f9" alt="drawing" style="width:600px;"/>
-</center>
-<br>
 
-<center>
-  <b> Figure. 11.</b> Copyright bypass strategy understood by DALL·E
-</center>
+<img src="https://github.com/JB243/jb243.github.io/assets/55747737/6998f7a4-7e42-4131-b1bd-87d2c2e007f9" alt="drawing" style="width:600px;"/>
+
+<b> Figure 11.</b> Copyright bypass strategy understood by DALL·E
+
 <br>
 <br>
 
@@ -513,14 +479,11 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 > ○ If the above discussion is extended further, it may be difficult for some images, regardless of copyright, to have watermarks or unnecessary characters, even though their quality is quite good. In this case, it will be possible to restore the part one wants by utilizing the deep image prior (DIP).
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/198066506-50beea1b-b39a-4dea-ba54-ce98bf1b839f.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b>Figure. 12.</b> Inpainting using DIP 
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/198066506-50beea1b-b39a-4dea-ba54-ce98bf1b839f.png" alt="drawing" style="width:400px;"/>
+
+<b>Figure 12.</b> Inpainting using DIP 
+
 <br>
   
 #### 3-4. Copyright detour strategy through image watermark development (<span style="color:red">not started</span>)
@@ -702,14 +665,10 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 > ○ **Direction 1.** https://artsexperiments.withgoogle.com/tsnemap/
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/198066673-f8542cb0-66bc-4b15-bd77-9dcfb69e0ca9.png" alt="drawing" style="width:400px;"/>
-</center>
-<br>
 
-<center>
-  <b>Figure. 13.</b> A method of representing the blueprint of knowledge in tSNE
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/198066673-f8542cb0-66bc-4b15-bd77-9dcfb69e0ca9.png" alt="drawing" style="width:400px;"/>
+
+<b>Figure 13.</b> A method of representing the blueprint of knowledge in tSNE
 
 <br>
 <br>
@@ -717,14 +676,10 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 > ○ **Direction 2.** Illustration of papers in tSNE with language models (_e.g._, PubMedBERT)
 
 <br>
-<center>
-<img src="https://user-images.githubusercontent.com/55747737/232264674-5ece1833-a23d-4070-9005-2c1cb1f981f4.png" alt="drawing" style="width:600px;"/>
-</center>
-<br>
 
-<center>
-  <b>Figure. 14.</b> <a href = "https://www.biorxiv.org/content/10.1101/2023.04.10.536208v1.full.pdf">The landscape of biomedical research</a>
-</center>
+<img src="https://user-images.githubusercontent.com/55747737/232264674-5ece1833-a23d-4070-9005-2c1cb1f981f4.png" alt="drawing" style="width:600px;"/>
+
+<b>Figure 14.</b> <a href = "https://www.biorxiv.org/content/10.1101/2023.04.10.536208v1.full.pdf">The landscape of biomedical research</a>
 
 <br>
 
@@ -732,15 +687,9 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 <br>
 
-<center>
 <img src="https://github.com/JB243/jb243.github.io/assets/55747737/9830722a-46b8-4f05-875e-3d6067580c6b" alt = "drawing" style="width: 600px;"/ > 
-</center>
 
-<br>
-
-<center>
-  <b>Figure. 15.</b> 2D Visualization of Postings Using <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/discussions/1">all-MiniLM-L6-v2</a>
-</center>
+<b>Figure 15.</b> 2D Visualization of Postings Using <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/discussions/1">all-MiniLM-L6-v2</a>
 
 <br>
 

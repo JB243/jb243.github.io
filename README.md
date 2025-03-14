@@ -173,13 +173,26 @@ An animation of Dr. Stone also showed me a similar idea.
 > ○ Isn't the acceleration of knowledge acquisition essential for <span style="color:orange">you who have not yet finished challenging</span>?
 
 <br>
+
+#### Mission 5. Attempt to Prove the Infinity of Knowledge
+
+> ○ [Human progress must be eternal](https://jb243.github.io/pages/396): Even if humanity itself cannot last forever, at least knowledge should remain eternal.
+
+> ○ The domain where humans, based on quantum units, can surpass AI, based on transistor units, lies in the realm where the quantity of knowledge forms an entire universe.
+
+> ○ It is said that Einstein once asked his mother as a teenager, "What if there’s nothing left to research when I grow up?" Yet, he gave birth to quantum mechanics and the theory of relativity. Then, what about now?
+
+> ○ A way has been found to significantly expand the total amount of human knowledge almost to infinity. ("[The Horizon of Cognition and the Breakthrough of AI](https://jb243.github.io/pages/2410)")
+
+<br>
+
 <br>
 
 ## 2. Initiative 1. Future writing and project plan
 
-> ○ January 2025: University math competition, chemistry problem solving
+> ○ March, 2025: University math competition, chemistry problem solving
 
-> ○ February 2025: Renewal of analysis (calculus) post
+> ○ April, 2025: Renewal of analysis (calculus) post
 
 <br>
 <br>

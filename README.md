@@ -186,6 +186,12 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
+#### Mission 6. An Attempt to Discern Truth from Falsehood
+
+> ○ Because the media can no longer be trusted
+
+<br>
+
 <br>
 
 ## 2. Initiative 1. Future writing and project plan

@@ -90,7 +90,7 @@ It is a blog that started as a diary in 2007. However, through this blog, I beca
 
 >> ○ The most important conclusion people find while studying economic history. The world has always demonstrated [Increasing Returns of Scales](https://jb243.github.io/pages/1654). The increase in population led to irreversible technological development and people's lives became richer. Then, the more knowledge we share, the more people gather, and the more knowledge we gather, the more knowledge we can create.
 
->> ○ Currently, known business models (BMs) such as Wikipedia, Github, and Naver Knowledge-in are well known for using this approach.
+>> ○ Currently, known business models (BMs) such as Amazon Mechanical Turk, Wikipedia, Github, and Naver Knowledge-in are well known for using this approach.
 
 > ○ **Answer 2.** <span style="color:purple">AI Artificial Intelligence Model</span> **:** An idea of living and evolving letters.
 
@@ -439,7 +439,9 @@ An animation of Dr. Stone also showed me a similar idea.
 
 >> ○ I have also tried implementing a chatbot using Meta's on-premise LLMs like LLaMa, LLaMa2, and mistral. ([ollama](https://ollama.ai/))
 
-> ○ **Method 4.** Actively Promote Content: Twitter, Tistory Forums, YouTube, Naver Knowledge-in, etc.
+> ○ **Method 4.** Application or benchmarking of Amazon Mechanical Turk
+
+> ○ **Method 5.** Actively Promote Content: Twitter, Tistory Forums, YouTube, Naver Knowledge-in, etc.
 
 <br>
 <br>

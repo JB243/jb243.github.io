@@ -150,9 +150,11 @@ An animation of Dr. Stone also showed me a similar idea.
 
 >> ○ It is also desirable to plan a complete and flawless data storage so that alien civilization can follow human knowledge in the distant future.
 
-> ○ Or, it shoul also be considered to prepare the seeds of knowledge to start civilization on another planet.
+> ○ Or, it should also be considered to prepare the seeds of knowledge to start civilization on another planet.
 
 >> ○ In other words, wouldn't it be needed to build an encyclopedia of all things when civilization on an alien planet is being built in hundreds of years?
+
+>> ○ It's also related to the SETI project.
 
 <br>
 

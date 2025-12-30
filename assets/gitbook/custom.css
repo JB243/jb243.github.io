@@ -306,3 +306,20 @@
 .book.color-theme-2 .markdown-section blockquote p {
   color: inherit !important;
 }
+
+/* Sepia: Sidebar hover/active visibility fix (ChatGPT) */
+.book.color-theme-1 .book-summary ul.summary li.chapter > a {
+  color: rgba(255,255,255,.88);              /* 글자 밝게 */
+}
+
+.book.color-theme-1 .book-summary ul.summary li.chapter > a:hover{
+  background: rgba(255,255,255,.10);         /* hover 배경 더 잘 보이게 */
+  text-decoration: none;
+}
+
+.book.color-theme-1 .book-summary ul.summary li.active > a{
+  background: rgba(255,200,120,.22);         /* active 배경: 따뜻한 톤 */
+  color: rgba(255,255,255,.96);
+  font-weight: 600;
+}
+

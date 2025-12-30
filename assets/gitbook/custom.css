@@ -301,3 +301,8 @@
   color: #111;
 }
 
+/* Fix: Night mode blockquote text color (ChatGPT) */
+.book.color-theme-2 .markdown-section blockquote,
+.book.color-theme-2 .markdown-section blockquote p {
+  color: inherit !important;
+}

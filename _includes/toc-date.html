@@ -28,8 +28,16 @@
 
             <li class="divider"></li>
             <li class="header">Ⅰ. Nature Science</li>
-            <li class="chapter"><a href="https://jb243.github.io/pages/482" rel="noopener">Philosophy</a></li>
-            <li class="chapter"><a href="https://jb243.github.io/pages/764" rel="noopener">General Mathematics</a></li>
+            <li class="chapter{% if page.url == '/pages/482' %} active{% endif %}"
+                data-level="1.2"
+                data-path="{{ '/pages/482' | relative_url }}">
+              <a href="{{ '/pages/482' | relative_url }}" rel="noopener">Philosophy</a>
+            </li>
+            <li class="chapter{% if page.url == '/pages/764' %} active{% endif %}"
+                data-level="1.2"
+                data-path="{{ '/pages/482' | relative_url }}">
+              <a href="{{ '/pages/482' | relative_url }}" rel="noopener">General Mathematics</a>
+            </li>
             <li class="chapter"><a href="https://jb243.github.io/pages/659" rel="noopener">Geometry</a></li>
             <li class="chapter"><a href="https://jb243.github.io/pages/1014" rel="noopener">Algebra</a></li>
             <li class="chapter"><a href="https://jb243.github.io/pages/1829" rel="noopener">Calculus</a></li>

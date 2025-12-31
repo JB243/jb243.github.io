@@ -8,7 +8,7 @@
 
 **3. Initiative 2.** [Content acquisition plan](#3-initiative-2-content-acquisition-plan-in-progress)
 
-**4. Initiative 3.** [Image generation plan](#4-initiative-3-image-generation-plan-not-started)
+**4. Initiative 3.** [Image generation plan](#4-initiative-3-image-generation-plan-in-progress)
 
 **5. Initiative 4.** [Translation project](#5-initiative-4-translation-project-complete)
 

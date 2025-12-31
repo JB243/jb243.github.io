@@ -93,10 +93,34 @@
                         </p>
                     
                     {% else %}
-                        <p style="line-height: 2; font-size: 9pt; text-align: right;"><a href="https://nate9389.tistory.com/notice/1758" target="_blank" rel="noopener"><span style="color: #666666;">Korean</span></a>, 
-                            <a href="https://github.com/JB243/jb243.github.io/edit/main/README.md" target="_blank" rel="noopener"><span style="color: #666666;">Edit</span></a>
+                        <!-- <p style="line-height: 2; font-size: 9pt; text-align: right;"><a href="https://nate9389.tistory.com/notice/1758" target="_blank" rel="noopener"><span style="color: #666666;">Korean</span></a>, 
+                            <a href="https://github.com/JB243/jb243.github.io/edit/main/README.md" target="_blank" rel="noopener"><span style="color: #666666;">Edit</span></a>-->                    
+                    <!--</p> muted at 25.12.31
+                        <br>-->
+                    
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var path = window.location.pathname;
+                      var m = path.match(/^\/pages\/(\d+)(?:\/)?$/);
+                    
+                      if (!m) return;
+                    
+                      var id = parseInt(m[1], 10);
+                    
+                      // 기존 로직과 동일하게 5000 이상이면 5000 빼서 Korean(Tistory)로 연결
+                      var koreanId = (id >= 5000) ? (id - 5000) : id;
+                    
+                      var koreanLink = document.getElementById('koreanLinkFallback');
+                      if (koreanLink) koreanLink.href = 'https://nate9389.tistory.com/' + koreanId;
+                    });
+                    </script>
+                    
+                    <p style="line-height: 2; font-size: 9pt; text-align: right;">
+                      <a id="koreanLinkFallback" href="https://nate9389.tistory.com/notice/1758" target="_blank" rel="noopener" style="color: #666666;">Korean</a>,
+                      <a href="https://github.com/JB243/jb243.github.io/edit/main/README.md" target="_blank" rel="noopener" style="color: #666666;">Edit</a>
                     </p>
-                        <br>
+                    <br>
+
                         <!-- <h1 id="{{ page.id }}">{{ site.title | escape }}</h1> -->
                     {% endif %}
                     <!-- 파일 제목에 자유도를 높이고 싶어서 위 코드를  -->

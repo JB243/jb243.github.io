@@ -10,7 +10,7 @@
         },
         "pluginsConfig": {
             "fontsettings": {
-                "family": "sans",
+                "family": "serif",
                 "size": 2,
                 "theme": "night"
             },

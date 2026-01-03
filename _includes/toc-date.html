@@ -21,7 +21,24 @@
             <!-- I added the below -->
             <li class="divider"></li>
             <li class="chapter"><a href="https://www.linkedin.com/in/jeongbin-park-04aa66246/" rel="noopener">Who am I?</a></li>
-            <li class="chapter"><a href="https://nate9389.tistory.com/" rel="noopener">Originally, I wrote them in Korean!</a></li>
+            
+            <!-- <li class="chapter"><a href="https://nate9389.tistory.com/" rel="noopener">Originally, I wrote them in Korean!</a></li> -->
+            <!-- modified (25.01.03) -->
+            {%- assign tistory_base = "https://nate9389.tistory.com" -%}
+            {%- if page.url == "/" or page.url == "/index.html" or page.url == "/pages/1" or page.url == "/pages/1/" -%}
+              {%- assign tistory_path = "/" -%}
+            {%- elsif page.url contains "/pages/" -%}
+              {%- assign page_id = page.url | remove: "/pages/" | remove: "/" | remove: ".html" -%}
+              {%- assign tistory_path = "/" | append: page_id -%}
+            {%- else -%}
+              {%- assign tistory_path = "/" -%}
+            {%- endif -%}
+            <li class="chapter">
+              <a href="{{ tistory_base }}{{ tistory_path }}" rel="noopener">
+                Originally, I wrote them in Korean!
+              </a>
+            </li>
+
             <li class="chapter"><a href="mailto:jeongbp@umich.edu" rel="noopener">jeongbp@umich.edu</a></li>
             
             <!-- I added the below -->

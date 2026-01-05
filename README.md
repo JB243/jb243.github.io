@@ -198,11 +198,14 @@ An animation of Dr. Stone also showed me a similar idea.
 
 ## 2. Initiative 1. Future writing and project plan
 
-> ○ March, 2025: University math competition, chemistry problem solving
+> ○ January 2026: Fermat’s Last Theorem
 
-> ○ April, 2025: Renewal of analysis (calculus) post
+> ○ February 2026: The Poincaré Conjecture
+
+> ○ March 2026: IMO
 
 <br>
+
 <br>
 
 ## 3. Initiative 2. Content acquisition plan (<span style="color:orange">in progress</span>)

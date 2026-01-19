@@ -531,9 +531,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 >> ○ **Objective 3.** Emphasizing Differentiation Through Technological Superiority: By introducing LLM and other technical differentiations, I aim to strengthen my capabilities and improve the satisfaction of the readers.
 
->> ○ [English and Japanese translation materials](https://jb243.github.io/)
-
->> ○ Chinese translation materials ([in preparation](https://jb243.github.io/pages/2245#:~:text=%E2%91%A7%C2%A0Baidu%20Webmaster%20Tool%C2%A0))
+>> ○ [English and Chinese translation materials](https://jb243.github.io/)
 
 > ○ **Method 1.** Use of Naver Papago (<span style="color:red">rejected</span>)
 
@@ -541,11 +539,11 @@ An animation of Dr. Stone also showed me a similar idea.
 
 >> ○ <span style="color:orange">weakness</span> **:** Laborious.
 
-> ○ **Method 2.** Google Translater API, Crawling (<span style="color:red">rejected</span>)
+> ○ **Method 2.** Google Translater API (<span style="color:green">complete</span>)
 
->> ○ <span style="color:orange">weakness</span> **:** Difficult to use and translation quality is too low.
+>> ○ Can be applicable using [Python package](https://jb243.github.io/pages/366). Free.
 
-> ○ **Method 3.** Python web crawling → Markdown conversion → ChatGPT API → GitHub commit (<span style="color:green">complete</span>) ([ref](https://www.youtube.com/watch?v=UbQYlvt7zWI))
+> ○ **Method 3.** Python web crawling → Markdown conversion → [LLM API](https://openrouter.ai/docs/quickstart) (e.g., ChatGPT) → GitHub commit (<span style="color:green">complete</span>) ([ref](https://www.youtube.com/watch?v=UbQYlvt7zWI))
 
 >> ○ Python web crawling**:** Using the Python 'requests' library.
 
@@ -553,11 +551,9 @@ An animation of Dr. Stone also showed me a similar idea.
 
 >> ○ ChatGPT API**:** If the instruction becomes too lengthy, there's a decline in quality, necessitating [text preprocessing](https://jb243.github.io/pages/325).
 
-> ○ **Method 4.** Python web crawling → Markdown conversion → LLaMa2 API  → GitHub commit (<span style="color:orange">in progress</span>)
+> ○ **Method 4.** Python web crawling → Markdown conversion → LLaMa / Qwen  → GitHub commit (<span style="color:orange">in progress</span>)
 
 >> ○ <span style="color:green">Advantage</span> **:** It’s installed, so it’s free and has a reproducibility. Enables more efficient fine-tuning. [ollama](https://github.com/ollama/ollama) makes the use of llama2 a lot easier.
-
->> ○ Remark **:** Using the LLaMa2 API key also incurs costs ([Replicate](https://replicate.com/pricing))
 
 > ○ **Policy 1:** Do not produce overly perfect translations.
 
@@ -571,13 +567,28 @@ An animation of Dr. Stone also showed me a similar idea.
 
 >> ○ **Step 1:** Edit on the original site (e.g., Tistory).
 
->> ○ **Step 2:** Javascript recognizes the editing event and forwards it to an AI assistant based on LLaMa2.
+>> ○ **Step 2:** Javascript recognizes the editing event and forwards it to an AI assistant based on LLM.
 
->> ○ **Step 3:** The LLaMa2-based AI assistant inputs commands into the internal system, executing Git Clone and Git Commit.
+>> ○ **Step 3:** The LLM-based AI agent inputs commands into the internal system, executing Git Clone and Git Commit.
 
 >> ○ **Step 4:** All other GitHub foreign language sites are uniformly updated.
 
+> ○ **Policy 3:** Chinese was chosen as the second language after English.
+
 <br>
+
+<img width="873" height="328" alt="스크린샷 2026-01-19 오후 6 27 07" src="https://github.com/user-attachments/assets/d642c8ce-4b4d-4e64-a321-378ab409bf8e" />
+
+**Figure 13.** ahrefs Web Analytics
+
+<br>
+
+>> ○ Even though the site is written in English, there is significant traffic from Chinese users, and browser translation makes Chinese access easy (making knowledge leakage effectively inevitable).
+
+>> ○ Rather than treating Chinese user traffic as a “side effect,” I think it makes more sense to proactively account for and plan for this audience.
+
+<br>
+
 <br>
 
 ## 6. Initiative 5. Publication project (<span style="color:green">complete</span>)
@@ -696,9 +707,10 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <img src="https://user-images.githubusercontent.com/55747737/198066673-f8542cb0-66bc-4b15-bd77-9dcfb69e0ca9.png" alt="drawing" style="width:400px;"/>
 
-<b>Figure 13.</b> A method of representing the blueprint of knowledge in tSNE
+<b>Figure 14.</b> A method of representing the blueprint of knowledge in tSNE
 
 <br>
+
 <br>
 
 > ○ **Direction 2.** Illustration of papers in tSNE with language models (_e.g._, PubMedBERT)
@@ -707,7 +719,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <img src="https://user-images.githubusercontent.com/55747737/232264674-5ece1833-a23d-4070-9005-2c1cb1f981f4.png" alt="drawing" style="width:600px;"/>
 
-<b>Figure 14.</b> <a href = "https://www.biorxiv.org/content/10.1101/2023.04.10.536208v1.full.pdf">The landscape of biomedical research</a>
+<b>Figure 15.</b> <a href = "https://www.biorxiv.org/content/10.1101/2023.04.10.536208v1.full.pdf">The landscape of biomedical research</a>
 
 <br>
 
@@ -717,7 +729,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <img src="https://github.com/JB243/jb243.github.io/assets/55747737/9830722a-46b8-4f05-875e-3d6067580c6b" alt = "drawing" style="width: 600px;"/ > 
 
-<b>Figure 15.</b> 2D Visualization of Postings Using <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/discussions/1">all-MiniLM-L6-v2</a>
+<b>Figure 16.</b> 2D Visualization of Postings Using <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/discussions/1">all-MiniLM-L6-v2</a>
 
 <br>
 
@@ -755,13 +767,12 @@ An animation of Dr. Stone also showed me a similar idea.
 > ○ [What is Knowledge?](https://jb243.github.io/pages/387)
 
 <br>
+
 <br>
 
 ## 10. Closing
 
-> I want to build a Tower of Babel consisting of Knowledge.
-
-> I will climb to the top of the world and wait for you there.
+I want to build a Tower of Babel consisting of Knowledge. I will climb to the top of the world and wait for you there.
 
 <br>
 
@@ -769,4 +780,4 @@ An animation of Dr. Stone also showed me a similar idea.
 
 *Input: 2019.11.01. 20:52*
 
-*Revised: 2023.06.30 13:25*
+*Revised: 2026.01.19 18:28*

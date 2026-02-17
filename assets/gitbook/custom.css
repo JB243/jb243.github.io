@@ -307,6 +307,13 @@
   color: inherit !important;
 }
 
+/* Fix: Sepia mode blockquote color */
+.book.color-theme-1 .markdown-section blockquote,
+.book.color-theme-1 .markdown-section blockquote p{
+  color: inherit !important;              /* Sepia 본문색(#704214) 따라가게 */
+  border-left-color: rgba(112,66,20,.28) !important;  /* 들여쓰기 라인도 어울리게 */
+}
+    
 /* Sepia: Sidebar hover/active visibility fix (ChatGPT) */
 .book.color-theme-1 .book-summary ul.summary li.chapter > a {
   color: rgba(255,255,255,.88);              /* 글자 밝게 */
@@ -322,4 +329,5 @@
   color: rgba(255,255,255,.96);
   font-weight: 600;
 }
+
 

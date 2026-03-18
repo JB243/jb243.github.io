@@ -28,7 +28,7 @@
 
 ## 1. Before entering,
 
-It is a blog that started as a diary in 2007. However, through this blog, I became special and wanted to communicate with the world through this blog. Then, while watching the match between Lee Se-dol and AlphaGo in 2016, I wanted to sketch a tree about human knowledge on this blog. And now, I would like to complete this project in earnest.
+It is a blog that started as a diary in 2007. However, through this blog, I became special and wanted to communicate with the world through this blog. Then, while watching the match between Lee Se-dol and AlphaGo in 2016, I wanted to sketch a tree about human knowledge on this blog. And now, I would like to proceed with this project further.
 
 <br>
 

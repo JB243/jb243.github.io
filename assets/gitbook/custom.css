@@ -330,4 +330,28 @@
   font-weight: 600;
 }
 
+/* 26.05.16 추가 */
+/* Fix: Search results visibility in Night mode */
+.book.color-theme-2 #book-search-results,
+.book.color-theme-2 #book-search-results .search-results,
+.book.color-theme-2 #book-search-results .search-results-title,
+.book.color-theme-2 #book-search-results .search-results-list,
+.book.color-theme-2 #book-search-results .search-results-item,
+.book.color-theme-2 #book-search-results .search-results-item p {
+  color: #bdcadb !important;
+}
 
+.book.color-theme-2 #book-search-results .search-results-item h3,
+.book.color-theme-2 #book-search-results .search-results-item h3 a {
+  color: #3eb1d0 !important;
+}
+
+.book.color-theme-2 #book-search-results .search-results-item a {
+  color: #3eb1d0 !important;
+}
+
+.book.color-theme-2 #book-search-results span.search-highlight-keyword,
+.book.color-theme-2 #book-search-results .search-results-list li p em {
+  background: #ffeb3b !important;
+  color: #111 !important;
+}

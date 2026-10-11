@@ -4,23 +4,21 @@
 
 **1.** [Before entering,](#1-before-entering)
 
-**2. Initiative 1.** [Future writing and project plan](#2-initiative-1-future-writing-and-project-plan)
+**2. Initiative 1.** [Content acquisition plan](#2-initiative-1-content-acquisition-plan-in-progress)
 
-**3. Initiative 2.** [Content acquisition plan](#3-initiative-2-content-acquisition-plan-in-progress)
+**3. Initiative 2.** [Image generation plan](#3-initiative-2-image-generation-plan-in-progress)
 
-**4. Initiative 3.** [Image generation plan](#4-initiative-3-image-generation-plan-in-progress)
+**4. Initiative 3.** [Translation project](#4-initiative-3-translation-project-complete)
 
-**5. Initiative 4.** [Translation project](#5-initiative-4-translation-project-complete)
+**5. Initiative 4.** [Publication project](#5-initiative-4-publication-project-complete)
 
-**6. Initiative 5.** [Publication project](#6-initiative-5-publication-project-complete)
+**6. Initiative 5.** [Apps on a blog](#6-initiative-5-apps-on-a-blog-in-progress)
 
-**7. Initiative 6.** [Apps on a blog](#7-initiative-6-apps-on-a-blog-in-progress)
+**7. Initiative 6.** [Human-computer interface (HCI)](#7-initiative-6-human-computer-interface-hci-not-started)
 
-**8. Initiative 7.** [Human-computer interface (HCI)](#8-initiative-7-human-computer-interface-hci-not-started)
+**8. Initiative 7.** [Research on the nature of knowledge](#8-initiative-7-philosophy-of-knowledge-in-progress)
 
-**9. Initiative 8.** [Research on the nature of knowledge](#9-initiative-8-philosophy-of-knowledge-in-progress)
-
-**10.** [Closing](#10-closing)
+**9.** [Closing](#9-closing)
 
 ---
 
@@ -196,19 +194,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
-## 2. Initiative 1. Future writing and project plan
-
-> ○ January 2026: Fermat’s Last Theorem
-
-> ○ February 2026: The Poincaré Conjecture
-
-> ○ March 2026: IMO
-
-<br>
-
-<br>
-
-## 3. Initiative 2. Content acquisition plan (<span style="color:orange">in progress</span>)
+## 2. Initiative 1. Content acquisition plan (<span style="color:orange">in progress</span>)
 
 #### 2-1. Next Generation Search Engine Project (<span style="color:orange">in progress</span>) **:** <i>[Search Engine](https://jb243.github.io/pages/2245#:~:text=%E2%91%B8-,%EC%84%9C%EC%B9%98%EC%97%94%EC%A7%84,-(search%20engine))</i>, <i>[AI](https://nate9389.tistory.com/1138)</i>
 
@@ -376,7 +362,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 > ○ **Method 2.** An idea to back up postings periodically through crawling ([link](https://jb243.github.io/pages/366)) (<span style="color:green">complete</span>)
 
-> ○ **Method 3.** An idea for LLM-based AI assistant to automatically reflect on foreign language platforms hosted on GitHub as soon as certain posts are newly created or updated (<span style="color:orange">in progress</span>) **:** Refer to the [translation project](#6-initiative-5-publication-project-complete) here. 
+> ○ **Method 3.** An idea for LLM-based AI assistant to automatically reflect on foreign language platforms hosted on GitHub as soon as certain posts are newly created or updated (<span style="color:orange">in progress</span>) **:** Refer to the [translation project](#5-initiative-4-publication-project-complete) here. 
 
 > ○ **Method 4.** [Reviewer AI](https://jb243.github.io/pages/366), a model that reviews content for errors and typos using crawling and LLM (<span style="color:orange">in progress</span>)  
 
@@ -453,7 +439,7 @@ An animation of Dr. Stone also showed me a similar idea.
 <br>
 <br>
 
-## 4. Initiative 3. Image generation plan (<span style="color:orange">in progress</span>)
+## 3. Initiative 2. Image generation plan (<span style="color:orange">in progress</span>)
 
 #### 3-1. 3D Images as contents (<span style="color:red">not started</span>)
 
@@ -521,7 +507,7 @@ An animation of Dr. Stone also showed me a similar idea.
 <br>
 <br>
 
-## 5. Initiative 4. Translation project (<span style="color:green">complete</span>)
+## 4. Initiative 3. Translation project (<span style="color:green">complete</span>)
 
 > ○ Overview
 
@@ -591,7 +577,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
-## 6. Initiative 5. Publication project (<span style="color:green">complete</span>)
+## 5. Initiative 4. Publication project (<span style="color:green">complete</span>)
 
 > ○ **Objective 1.** Growth of education market
 
@@ -617,7 +603,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
-## 7. Initiative 6. Apps on a blog (<span style="color:orange">in progress</span>)
+## 6. Initiative 5. Apps on a blog (<span style="color:orange">in progress</span>)
 
 #### 6-1. Social statistics (<span style="color:red">not started</span>)
 
@@ -711,8 +697,6 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
-<br>
-
 > ○ **Direction 2.** Illustration of papers in tSNE with language models (_e.g._, PubMedBERT)
 
 <br>
@@ -735,7 +719,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
-## 8. Initiative 7. Human-computer interface (HCI) (<span style="color:red">not started</span>)
+## 7. Initiative 6. Human-computer interface (HCI) (<span style="color:red">not started</span>)
 
 #### 7-1 Acquisition of knowledge
 
@@ -760,9 +744,10 @@ An animation of Dr. Stone also showed me a similar idea.
 > ○ If Spatiotemporal Omics is implemented, it can be interpreted as a data-interpreting foundational model, which would enable the conversion from humans to computers.
 
 <br>
+
 <br>
 
-## 9. Initiative 8. Research on the nature of knowledge (<span style="color:orange">in progress</span>)
+## 8. Initiative 7. Research on the nature of knowledge (<span style="color:orange">in progress</span>)
 
 > ○ [What is Knowledge?](https://jb243.github.io/pages/387)
 
@@ -770,7 +755,7 @@ An animation of Dr. Stone also showed me a similar idea.
 
 <br>
 
-## 10. Closing
+## 9. Closing
 
 I want to build a Tower of Babel consisting of Knowledge. I will climb to the top of the world and wait for you there.
 

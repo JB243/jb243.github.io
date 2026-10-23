@@ -37,3 +37,20 @@
         {%- include cnzz.html -%}
     {%- endif -%}
 {%- endif -%}
+
+<script>
+window.addEventListener("DOMContentLoaded", function() {
+    const infoBanner = document.createElement("div");
+    infoBanner.innerHTML = `
+        <div style="position: fixed; bottom: 0; left: 0;
+                    width: 100%; background: rgba(0,0,0,0.8);
+                    color: white; padding: 10px;
+                    text-align: center; z-index: 1000;
+                    box-sizing: border-box;">
+            『<a href="https://globalcomix.com/c/idea-glitch-comic-preview/chapters/en/1/"
+                style="color: yellow;">Free Idea Glitch Comics Preview! Enjoy!</span>』
+        </div>
+    `;
+    document.body.appendChild(infoBanner);
+});
+</script>
